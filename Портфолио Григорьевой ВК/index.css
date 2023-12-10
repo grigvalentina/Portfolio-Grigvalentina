@@ -1,0 +1,337 @@
+@media screen and (max-width: 1400px) {
+    body {
+        background-image: url('https://static.baza.farpost.ru/v/1612939202554_bulletin');
+        background-repeat: no-repeat;
+        background-size: cover;
+        font: 11pt Arial, Helvetica, sans-serif;
+        /* Рубленый шрифт текста */
+        margin: 0;
+        /* Отступы на странице */
+    }
+
+    h1 {
+        font-size: 36px;
+        /* Размер шрифта */
+        margin: 0;
+        /* Убираем отступы */
+        color: rgb(49, 21, 125);
+        /* Цвет текста */
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 28px;
+        margin-top: 0;
+        /* Убираем отступ сверху */
+        color: rgb(2, 34, 16);
+    }
+
+    #header {
+        /* Верхний блок */
+        background: #658ea5;
+        /* Цвет фона */
+        padding: 10px;
+        /* Поля вокруг текста */
+        text-align: center;
+        font-size: 1em;
+         }
+
+    div {
+        box-shadow: 7px 7px 5px rgba(41, 2, 72, 0.6);
+        /* Тень */
+        padding: 10px;
+        /* Поля вокруг текста */
+        border-radius: 10px;
+        /* Радиус скругления */
+        background: #eeece0;
+        /* Цвет фона */
+    }
+
+    #sidebar {
+        /* Левая колонка */
+        float: left;
+        /* Обтекание справа */
+        border: 1px solid #0a033b;
+        /* Параметры рамки вокруг */
+        width: 180px;
+        /* Ширина колонки */
+        height: 260px;
+        /* Высота колонки */
+        padding: 0em 0.5em 0.5em;
+        /* Поля вокруг текста */
+        margin: 10px 10px 20px 5px;
+        /* Значения отступов */
+        background-color: rgb(98, 75, 120);
+    }
+
+    .button {
+        padding: 0em 1em 0em;
+        cursor: pointer;
+        transition: box-shadow 200ms linear;
+        height: 45px;
+        border: rgb(26, 3, 47);
+    }
+    .table {
+        align-items: center;
+    }
+    .div flex-container {
+        margin-left: auto;
+        margin-right: auto;
+        display: block
+    }
+    em {
+        color: rgb(71, 19, 119);
+    }
+
+    .demo-1 {
+        position: relative;
+        width: 300px;
+        height: 300px;
+        overflow: hidden;
+        float: left;
+        margin-right: 20px;
+        background-color: rgb(38, 135, 199)
+    }
+
+    .demo-1 p,
+    .demo-1 h2 {
+        color: #fff;
+        padding: 10px;
+        left: -20px;
+        top: 20px;
+        position: relative
+    }
+
+    .demo-1 p {
+        color: #fff;
+        font-family: 'Lato';
+        font-size: 12px;
+        line-height: 18px;
+        margin: 0
+    }
+    .demo-1 h2 {
+        font-family: 'Lato';
+        font-size: 20px;
+        line-height: 24px;
+        margin: 0;
+        color: #fff;
+    }
+    .effect img {
+        position: absolute;
+        margin: -15px 0;
+        right: 0;
+        top: 0;
+        cursor: pointer;
+        -webkit-transition: top .4s ease-in-out, right .4s ease-in-out;
+        -moz-transition: top .4s ease-in-out, right .4s ease-in-out;
+        -o-transition: top .4s ease-in-out, right .4s ease-in-out;
+        transition: top .4s ease-in-out, right .4s ease-in-out
+    }
+    .effect img.top:hover {
+        top: -300px;
+        right: -300px;
+        padding-bottom: 200px;
+        padding-left: 300px
+    }
+    .shadow-1 {
+             /* Тень */
+        padding: 10px;
+        /* Поля вокруг текста */
+        border-radius: 10px;
+        /* Радиус скругления */
+    }
+    #content {
+        /* Правая колонка */
+        margin: 10px 5px 20px 25%;
+        /* Значения отступов */
+        padding: 5px;
+        /* Поля вокруг текста */
+        border: 1px solid #0c898b;
+        /* Параметры рамки */
+    }
+
+    img {
+        float: left;
+        margin: 2em 1ch 1em;
+    }
+
+    #footer {
+        /* Нижний блок */
+        background: #05706c;
+        /* Цвет фона */
+        padding: 0.5px;
+        /* Поля вокруг текста */
+        color: #fff;
+        /* Цвет текста */
+        clear: left;
+        /* Отменяем действие float */
+        text-align: center;
+    }
+
+    .marquee {
+        padding: 0.2px;
+        /* Поля вокруг текста */
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    body {
+        background-image: url('https://static.baza.farpost.ru/v/1612939202554_bulletin');
+        background-repeat: no-repeat;
+        background-size: cover;
+        font: 11pt Arial, Helvetica, sans-serif;
+        /* Рубленый шрифт текста */
+        margin: 0;
+        /* Отступы на странице */
+    }
+
+    h1 {
+        font-size: 36px;
+        /* Размер шрифта */
+        margin: 0;
+        /* Убираем отступы */
+        color: rgb(21, 125, 101);
+        /* Цвет текста */
+        text-align: center;
+    }
+
+    h2 {
+        margin-top: 0;
+        /* Убираем отступ сверху */
+        color: rgb(1, 51, 32);
+    }
+
+    h3 {
+        font-size: 15px;
+        /* Размер шрифта */
+        margin: 0;
+        /* Убираем отступы */
+        color: rgb(19, 103, 83);
+        /* Цвет текста */
+        text-align: center;
+    }
+
+    #header {
+        /* Верхний блок */
+        background: #93e2cc;
+        /* Цвет фона */
+        padding: 10px;
+        /* Поля вокруг текста */
+        text-align: center;
+    }
+
+    div {
+        box-shadow: 7px 7px 5px rgba(15, 99, 69, 0.6);
+        /* Тень */
+        padding: 10px;
+        /* Поля вокруг текста */
+        border-radius: 10px;
+        /* Радиус скругления */
+        background: #a5ac81;
+        /* Цвет фона */
+    }
+
+    #sidebar {
+        /* Левая колонка */
+        float: left;
+        /* Обтекание справа */
+        border: 1px solid #053702;
+        width: 180px;
+        /* Ширина колонки */
+        height: 270px;
+        /* Высота колонки */
+        /* Высота колонки */
+        padding: 0em 0.5em 0.5em;
+        /* Поля вокруг текста */
+        margin: 10px 10px 20px 5px;
+        /* Значения отступов */
+        background-color: rgb(3, 56, 48);
+    }
+
+    .button {
+
+        padding: 0em 1em 0em;
+        cursor: pointer;
+        transition: box-shadow 200ms linear;
+        height: 45px;
+        border: rgb(3, 60, 51);
+        text-align: center;
+    }
+
+    .shadow-1 {
+     
+        /* Тень */
+        padding: 10px;
+        /* Поля вокруг текста */
+        border-radius: 10px;
+        /* Радиус скругления */
+    }
+
+    #content {
+        /* Правая колонка */
+        margin: 10px 5px 20px 25%;
+        /* Значения отступов */
+        padding: 5px;
+        /* Поля вокруг текста */
+        border: 1px solid #096c6d;
+        /* Параметры рамки */
+    }
+
+    img {
+        float: left;
+        margin: 2em 1ch 1em;
+    }
+
+    #footer {
+        /* Нижний блок */
+        background: #05706c;
+        /* Цвет фона */
+        padding: 0.5px;
+        /* Поля вокруг текста */
+        color: #fff;
+        /* Цвет текста */
+        clear: both;
+        /* Отменяем действие float */
+        text-align: center;
+    }
+
+    .marquee {
+        padding: 0.2px;
+        /* Поля вокруг текста */
+    }
+}
+/* Меняем стили при ширине экрана меньше 800px */
+@media (max-width: 800px) {
+    /* Теперь форма (правая колонка) будет сверху, а элементы (левая колонка) снизу */
+    .content {
+      height: 100%;
+      flex-direction: column-reverse; /* располагаем в колонку и реверсивно */
+    }
+  
+    /* Внутри левой колонки внутренние элементы располагаем в ряд */
+    .left-side {
+      margin-top: 50px;
+      flex-direction: row; /* располагаем элементы (адрес, телефон, email) в ряд */
+      width: 100%; /* левая колонка на всю ширину */
+      justify-content: center;
+      flex-wrap: wrap; /* перенос элементов, если не хватит места */
+    }
+    .details {
+      margin-right: 20px;
+    }
+    .details:last-child {
+      margin-right: 0;
+    }
+  
+    /* Убираем разделительную линию */
+    .left-side::before {
+      display: none;
+    }
+  
+    /* Правая колонка теперь на всю ширину и не имеет отступа слева */
+    .right-side {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
